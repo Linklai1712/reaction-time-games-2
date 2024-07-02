@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.game-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+#reaction-time-game, #target-game {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reaction-time-game {
+    background-color: lightgrey;
+}
+.target {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+}
+#result {
+    margin-top: 20px;
+}
